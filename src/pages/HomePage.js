@@ -1,9 +1,7 @@
 import React from "react";
 const HomePage =()=>{
     return(
-        <>
-        HomePage
-        </>
+        <>Testing HomePage</>
     )
 }
 export default HomePage;
