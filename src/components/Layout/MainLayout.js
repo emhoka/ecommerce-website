@@ -1,9 +1,15 @@
 import React from "react";
-const MainLayout =()=>{
-    return(
-        <>
-        MainLayout
-        </>
-    )
-}
+import TopNav from "./TopNav";
+import BottomNav from "./BottomNav";
+import Footer from "./Footer";
+const MainLayout = ({ children }) => {
+  return (
+    <div className="font-comfortaa">
+      <TopNav />
+      <BottomNav />
+      {children}
+      <Footer />
+    </div>
+  );
+};
 export default MainLayout;
