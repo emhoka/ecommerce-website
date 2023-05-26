@@ -5,7 +5,8 @@ module.exports = {
     fontFamily:{
       "comfortaa":"Comfortaa",
       "tangerine":"Tangerine",
-      "merienda":"Merienda"
+      "merienda":"Merienda",
+       "pangolin":"Pangolin"
     },
     extend: {
     },
