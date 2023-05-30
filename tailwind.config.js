@@ -6,7 +6,8 @@ module.exports = {
       "comfortaa":"Comfortaa",
       "tangerine":"Tangerine",
       "merienda":"Merienda",
-       "pangolin":"Pangolin"
+       "pangolin":"Pangolin",
+       "rubik":"Rubik Puddles"
     },
     extend: {
     },
