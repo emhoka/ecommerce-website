@@ -7,9 +7,14 @@ module.exports = {
       "tangerine":"Tangerine",
       "merienda":"Merienda",
        "pangolin":"Pangolin",
-       "rubik":"Rubik Puddles"
+       "rubik":"Rubik Puddles",
+       raleway: "Raleway",
     },
     extend: {
+      height:{
+        "100": "300px",
+        "200": "400px"
+      },
     },
   },
   plugins: [],

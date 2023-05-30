@@ -1,8 +1,10 @@
 import React from "react";
 const TopNav = () => {
   return (
-      <nav className="md:flex justify-between py-4 items-center bg-white mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
-        <div class="flex flex-shrink-0 items-center font-rubik text-3xl">
+      <nav className="bg-white">
+        <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+        <div class="md:flex justify-between py-4 items-center  relative">
+        <div class="font-rubik text-3xl">
         Ecommerce
         </div>
 
@@ -12,9 +14,10 @@ const TopNav = () => {
             placeholder="Search"
           />
         </div>
-        <div className="flex items-center">
+        <div >
         FAQs
         </div>
+        </div></div>
       </nav>
   );
 };
