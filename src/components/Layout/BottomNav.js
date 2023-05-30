@@ -1,5 +1,7 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 const BottomNav = () => {
+  const navigate = useNavigate();
   return (
     <>
   <nav class="bg-gray-800">
@@ -8,31 +10,35 @@ const BottomNav = () => {
             <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
               <div class="hidden sm:ml-6 sm:block">
                 <div class="flex space-x-4">
-                  <a
+                  <span
                     href="url"
-                    class="bg-orange-500 text-gray-800 rounded-md px-3 py-2 text-sm font-medium"
+                    class="bg-orange-500 text-gray-800 rounded-md px-3 py-2 text-sm font-medium cursor-pointer"
                     aria-current="page"
+                    onClick={() => navigate("/")}
                   >
                     Home
-                  </a>
-                  <a
+                  </span>
+                  <span
                     href="url"
-                    class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"
+                    class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium cursor-pointer"
+                    onClick={() => navigate("/categories")}
                   >
                     Categories
-                  </a>
-                  <a
+                  </span>
+                  <span
                     href="url"
-                    class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"
+                    class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium cursor-pointer"
+                    onClick={() => navigate("/shop")}
                   >
                     Shop
-                  </a>
-                  <a
+                  </span>
+                  <span
                     href="url"
-                    class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"
+                    class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium cursor-pointer"
+                    onClick={() => navigate("/shoppingcart")}
                   >
                     Cart
-                  </a>
+                  </span>
                 </div>
               </div>
             </div>

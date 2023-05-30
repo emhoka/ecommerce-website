@@ -4,7 +4,7 @@ import BottomNav from "./BottomNav";
 import Footer from "./Footer";
 const MainLayout = ({ children }) => {
   return (
-    <div className="font-comfortaa">
+    <div className="font-raleway">
       <TopNav />
       <BottomNav />
       {children}
