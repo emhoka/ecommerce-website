@@ -2,7 +2,7 @@ import React from "react";
 const TopNav = () => {
   return (
       <nav className="bg-white">
-        <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+        <div className="mx-auto container px-2 sm:px-6 lg:px-8">
         <div class="md:flex justify-between py-4 items-center  relative">
         <div class="font-rubik text-3xl">
         Ecommerce

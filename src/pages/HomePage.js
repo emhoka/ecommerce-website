@@ -1,5 +1,7 @@
 import React, {useState, useEffect} from "react";
 import ProductCard from "../components/Card/ProductCard";
+import Banner from "../components/Banner";
+import Filter from "../components/Filter";
 const HomePage =()=>{
 const [products, setProducts] = useState([]);
 useEffect(()=>{
@@ -14,7 +16,11 @@ useEffect(()=>{
 
   },[])
     return(
-       <ProductCard products={products} />
+      <>
+      <Banner />
+      <Filter />
+<ProductCard products={products} />
+</>
     )
 }
 export default HomePage;

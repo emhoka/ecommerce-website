@@ -42,7 +42,7 @@ const ProductCard =(props)=>{
     navigate("/product/" + id);
   }
     return(
-    <div className="bg-white mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+    <div className="bg-white mx-auto container px-2 sm:px-6 lg:px-8">
       {showModal ? (
         <AddTocartPopup
           setShowModal={setShowModal}
