@@ -18,7 +18,7 @@ useEffect(()=>{
     return(
       <>
       <Banner />
-      <Filter />
+      {/* <Filter /> */}
 <ProductCard products={products} />
 </>
     )
